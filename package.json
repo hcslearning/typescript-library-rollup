@@ -6,6 +6,9 @@
   "module": "dist/ts-lib-rollup.esm.js",
   "browser": "dist/ts-lib-rollup.umd.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "./": "dist/ts-lib-rollup.umd.js"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
